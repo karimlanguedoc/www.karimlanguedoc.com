@@ -22,7 +22,7 @@
 	</section>
 	
 	<section id="experience">
-		<h3>EXPERIENCE</h3>
+		<h3>EXPERIENCE</h3> <a id="resume-link" href="/resume/"> - Download Resumé</a>
 		<div class="job">
 			<h4>Sr. iOS Engineer </h4>
 			<h4>Punchkick Interactive Inc., Chicago IL - January 2016 - January 2017</h4>

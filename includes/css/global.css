@@ -118,6 +118,7 @@ h2 {
 }
 h3 {
 	color: #dc143c;
+	display: inline;
 }
 h4,
 h5 {
@@ -140,6 +141,10 @@ p {
 a {
 	color: #20a7e2;
 	text-decoration: none;
+}
+
+a.resume-link {
+	display: inline;
 }
 
 main {
