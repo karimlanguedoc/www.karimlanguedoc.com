@@ -1,5 +1,5 @@
 <?php
-	$GBVPageTitle = "Karim Languedoc - Home Page";
+	$GBVPageTitle = "Karim Languedoc - Error";
 	$GBVPageKeywords = "karim,languedoc,ios,engineer,developer,swift,python,php,html,css";
 	$GBVPageKeywords .= "petsmart,askpetmd,copa";
 	$GBVPageDescription = "Home page of iOS engineer, Karim Languedoc";
