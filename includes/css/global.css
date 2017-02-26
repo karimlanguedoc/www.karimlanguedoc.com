@@ -1,0 +1,273 @@
+/****************************************************** GENERAL *****************************************************/
+
+body,
+html {
+    font-size: 16px;
+    font-family: PlutoSansLight;
+    background-color: #f5f5f5;
+    margin-top: 0 !important;
+    color: #222;
+    margin: 0;
+    line-height: 35px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul {
+	marign: 0;
+	padding: 0;
+}
+
+img {
+    border: none;
+}
+
+.clearFix {
+    clear: both;
+}
+
+blockquote {
+	margin-top: 100px;
+	font-style: italic;
+	color: #444;
+}
+
+/****************************************************** LEFT NAVIGATION *****************************************************/
+
+nav#side-nav > #photo {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+nav#side-nav > #photo #img-container {
+	height: 100%;
+	width: 100%;
+}
+
+nav#side-nav > #photo #img-container img {
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	border-radius: 60px;
+}
+
+nav#side-nav > ul#nav-links,
+nav#side-nav > ul.social-links {
+    padding: 0;
+    margin: 0 0 0 25px;
+    position: relative;
+    height: auto;
+}
+
+nav#side-nav > ul.social-links {
+	margin-top: 55px;
+}
+
+nav#side-nav > ul#nav-links li,
+nav#side-nav > ul.social-links li {
+    display: block;
+    margin-bottom: 5px;    
+    list-style: none;
+}
+
+nav#side-nav > ul#nav-links li a,
+ul.social-links li a {
+    color: #222;
+    display: block;
+    width: auto;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: none;
+    text-transform: uppercase;
+    font-style: normal;
+    -webkit-transition: margin .4s;
+    -moz-transition: margin .4s;
+    transition: margin .4s;
+}
+
+nav#side-nav > ul#nav-links li a:hover,
+nav#side-nav > ul#nav-links li.active a,
+nav#side-nav > ul.social-links li a:hover,
+nav#side-nav > ul.social-links li.active a {
+    color: #20a7e2;
+    cursor: pointer;
+}
+
+/****************************************************** CONTENT *****************************************************/
+
+h1,
+h2 {
+	text-align: center;
+}
+
+h1 {
+	margin: 10px 0;
+	color: #20a7e2;
+	font-weight: normal;
+}
+h2 {
+    margin-bottom: 10px !important;
+    clear: both;
+}
+h3 {
+	color: #dc143c;
+}
+h4,
+h5 {
+    color: #888;
+}
+h2,
+h3,
+h4,
+h5 {
+	font-size: 20px;
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+p {
+    padding: 25px 0;
+}
+
+a {
+	color: #20a7e2;
+	text-decoration: none;
+}
+
+main {
+	background-color: #fff;
+}
+
+main > section {
+	margin-bottom: 50px;
+}
+
+main > section#intro p {
+	font-size: 22px;
+	text-align: center;
+}
+
+main > section#skills {
+	margin-bottom: 25px;
+}
+
+main > section #skills ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+main > section #skills ul li {
+	display: block;
+	margin-right: 5px;
+}
+
+main > section .job {
+	margin-bottom: 50px;
+	line-height: 30px;
+}
+
+main > section .job > p {
+	padding: 0;
+}
+
+/****************************************************** MEDIA QUERIES *****************************************************/
+
+@media screen and (min-width: 992px) {
+	nav#side-nav {
+		width: 100%;
+		height: 100px;
+	}
+	
+	main {
+		padding: 10px 0 0 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	nav#side-nav {
+		width: 250px;
+		height: 100%;
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    overflow: hidden;
+	    background-color: #f5f5f5;
+	    border-right: 1px solid inherit;
+	}
+	
+	main {
+		margin-left: 250px;
+		height: auto;
+		height: auto;
+		overflow: hidden;
+		padding-left: 15px;
+	}
+	
+	.hide-for-desktop {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	h2 {
+	    text-align: center;
+	}
+	
+	.hide-for-desktop {
+		display: block;
+	}
+	
+	nav#side-nav #photo {
+		height: 80px;
+		width: 80px;
+		margin: 15px auto;
+	}
+	nav#side-nav > ul#nav-links {
+		margin: auto;
+	}
+	
+	nav#side-nav > ul#nav-links li {
+		display: inline-block;
+		margin: 0 10px;
+	}
+	
+	nav#side-nav > ul.social-links {
+		display: none;
+	}
+	
+	main {
+		padding: 10px;
+	}
+	
+	main > section {
+		margin-bottom: 50px;
+	}
+	
+	main > section #skills ul li {
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+	
+	main > section#intro {
+		margin-bottom: 50px;
+	}
+
+	main > section#intro p {
+		font-size: 18px;
+		text-align: left;
+	}
+	
+	main > section .job {
+		line-height: 30px;
+	}
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /logs/
+Disallow: /includes/
+Disallow: /api/
+Disallow: /blog/
