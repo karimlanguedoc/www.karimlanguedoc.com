@@ -13,8 +13,11 @@
 		<meta name="author" content="Karim Languedoc">
 		<meta name="robots" content="<?php echo $GBVPageMeta; ?>">
 		
-		<link rel="stylesheet" type="text/css" href="/includes/css/global.css">
 		<link rel="stylesheet" type="text/css" href="/includes/fonts/PlutoSans.css">
+		<link rel="stylesheet" type="text/css" href="/includes/css/global.css">
+		<?php if (strtolower($GBVCurrentPage) == "blog") { ?>
+		<link rel="stylesheet" type="text/css" href="/includes/css/blog.css">
+		<?php } ?>
 		
 		<title><?php echo $GBVPageTitle; ?></title>
 		
@@ -28,6 +31,18 @@
 			document.createElement('section');
 		</script>
 		<![endif]-->
+		
+		<!-- Begin Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-19918006-2', 'karimlanguedoc.com');
+          ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
 	</head>
 	
 	<body>
@@ -42,11 +57,12 @@
                 </div>
             </div>
                                     
-            <ul id="nav-links">
+            <ul class="nav-links">
                 <li><a class="link" href="#intro">Introduction</a></li>
                 <li class="hide-for-desktop"><a class="link" href="#social">Contact Me</a></li>
                 <li><a class="link" href="#experience">Experience</a></li>
                 <li><a class="link" href="#skills">Skills</a></li>
+                <li><a class="link" href="#freelance">Freelance</a></li>
             </ul>
 			
 			<ul class="social-links">

@@ -2,14 +2,31 @@
 	<h1>KARIM LANGUEDOC</h1>
 	<h2>iOS & Full Stack Engineer</h2>
 	
+	
+	
+	
+	
+	<!-- INTRODUCTION -->
 	<section id="intro">
 		<p>
-			Highly experienced and self-motivated native iOS developer with many apps featured in the App Store. Additional experience developing native 
-			Android as well as Full-Stack web apps. Strong track record of delivering clean, quality code and top performing products on time and on 
-			budget. Proven ability to work independently as well as part of a team.  Well versed in agile development methodology.
+			I am an extremely passionate and talented software engineer with a passion for developing easy to use applications with beautifully designed 
+			UI that people just can’t wait to get their hands on.  My work ethic is through the roof, and i’m sure you’ll agree if you met me. I believe 
+			the future is mobile and I believe in mobile first development. I love developing for iOS and I love developing products that millions of 
+			people are going to see and use. It gives me a great sense of pride and motivates me to always create quality work.  
+		</p>
+		
+		<p>
+			I’ve worked closely with some amazing engineers on very tough, custom projects that have not only ranked high in the App Store but have been 
+			featured by Apple as well. Learning is something that I love to do, and i never turn down a challenge. I truly believe that one of the reasons 
+			people are successful in their roles is because of their coworkers, and the people around them that constantly push them to do better.
 		</p>
 	</section>
 	
+	
+	
+	
+	
+	<!-- SOCIAL LINKS -->
 	<section class="hide-for-desktop" id="social">
 		<h3>Contact me</h3>
 		<ul class="social-links">
@@ -21,6 +38,11 @@
 		</ul>
 	</section>
 	
+	
+	
+	
+	
+	<!-- EXPERIENCE -->
 	<section id="experience">
 		<h3>EXPERIENCE</h3> <a id="resume-link" href="/resume/"> - Download Resumé</a>
 		<div class="job">
@@ -133,6 +155,11 @@
 		</div>
 	</section>
 	
+	
+	
+	
+	
+	<!-- SKILLS -->
 	<section id="skills">
 		<h3>SKILLS</h3>
 		<ul>
@@ -142,4 +169,5 @@
 			<li>Git, Jira & Continuos Integration</li>
 		</ul>
 	</section>
+
 </main>

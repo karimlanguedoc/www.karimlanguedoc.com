@@ -58,7 +58,7 @@ nav#side-nav > #photo #img-container img {
 	border-radius: 60px;
 }
 
-nav#side-nav > ul#nav-links,
+nav#side-nav > ul.nav-links,
 nav#side-nav > ul.social-links {
     padding: 0;
     margin: 0 0 0 25px;
@@ -70,14 +70,14 @@ nav#side-nav > ul.social-links {
 	margin-top: 55px;
 }
 
-nav#side-nav > ul#nav-links li,
+nav#side-nav > ul.nav-links li,
 nav#side-nav > ul.social-links li {
     display: block;
     margin-bottom: 5px;    
     list-style: none;
 }
 
-nav#side-nav > ul#nav-links li a,
+nav#side-nav > ul.nav-links li a,
 ul.social-links li a {
     color: #222;
     display: block;
@@ -92,8 +92,8 @@ ul.social-links li a {
     transition: margin .4s;
 }
 
-nav#side-nav > ul#nav-links li a:hover,
-nav#side-nav > ul#nav-links li.active a,
+nav#side-nav > ul.nav-links li a:hover,
+nav#side-nav > ul.nav-links li.active a,
 nav#side-nav > ul.social-links li a:hover,
 nav#side-nav > ul.social-links li.active a {
     color: #20a7e2;
@@ -117,7 +117,7 @@ h2 {
     clear: both;
 }
 h3 {
-	color: #dc143c;
+	color: #000;
 	display: inline;
 }
 h4,
@@ -131,7 +131,7 @@ h5 {
 	font-size: 20px;
     margin: 0 0 5px 0;
     padding: 0;
-    font-weight: 300;
+    
 }
 
 p {
@@ -149,6 +149,8 @@ a.resume-link {
 
 main {
 	background-color: #fff;
+	overflow: hidden;
+	min-height: 400px;
 }
 
 main > section {
@@ -156,8 +158,7 @@ main > section {
 }
 
 main > section#intro p {
-	font-size: 22px;
-	text-align: center;
+	font-size: 20px;
 }
 
 main > section#skills {
@@ -214,7 +215,7 @@ main > section .job > p {
 		height: auto;
 		height: auto;
 		overflow: hidden;
-		padding-left: 15px;
+		padding: 0 25px 0 25px;
 	}
 	
 	.hide-for-desktop {
@@ -236,11 +237,11 @@ main > section .job > p {
 		width: 80px;
 		margin: 15px auto;
 	}
-	nav#side-nav > ul#nav-links {
+	nav#side-nav > ul.nav-links {
 		margin: auto;
 	}
 	
-	nav#side-nav > ul#nav-links li {
+	nav#side-nav > ul.nav-links li {
 		display: inline-block;
 		margin: 0 10px;
 	}

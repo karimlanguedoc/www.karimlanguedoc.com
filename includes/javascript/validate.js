@@ -1,9 +1,9 @@
 /*
     jQuery Form Validation Plugin v1.1 by: Karim Languedoc 
     Contact me with questions, concerns or improvements 
-    via email: karimlanguedoc_public@outlook.com, OR you 
+    via email: karimlanguedoc@outlook.com, OR you 
     can follow and contribute to this project on GitHub: 
-    http://www.github.com/klanguedoc
+    http://www.github.com/karimlanguedoc
 
     USAGE:
         <form id='myForm'>
