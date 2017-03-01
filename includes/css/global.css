@@ -215,7 +215,7 @@ main > section .job > p {
 		height: auto;
 		height: auto;
 		overflow: hidden;
-		padding: 0 25px 0 25px;
+		padding: 50px 25px 0 25px;
 	}
 	
 	.hide-for-desktop {

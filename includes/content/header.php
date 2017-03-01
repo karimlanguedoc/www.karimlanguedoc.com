@@ -62,7 +62,6 @@
                 <li class="hide-for-desktop"><a class="link" href="#social">Contact Me</a></li>
                 <li><a class="link" href="#experience">Experience</a></li>
                 <li><a class="link" href="#skills">Skills</a></li>
-                <li><a class="link" href="#freelance">Freelance</a></li>
             </ul>
 			
 			<ul class="social-links">
